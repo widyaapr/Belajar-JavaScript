@@ -1,0 +1,11 @@
+1. Paradigma fungsional programming dimana proses komputasi didasarkan pada fungsi 
+matematika murni
+2. Pure Funtion : tidak bergantung terhadap nilai yang berada di luar fungsi atau parameternya.
+
+Fungsi createPersonWithAge => membuat objek person baru dgn tambahan properti age dari
+objek person yang ada (bukan PF)
+agar menjadi PF => destructuring objek (lihat contoh 2)
+
+Konsep:
+2. Immutability (Objek tidak boleh diubah setelah dibuat), contoh pada array.map()
+3. Rekursif (teknik pada sebuah fungsi yang memanggil dirinya sndri) (contoh 3)
